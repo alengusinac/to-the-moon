@@ -1,0 +1,35 @@
+Pink color:
+CMYK: 17 % 100 % 36 % 1 %
+RGB: 210, 0, 162
+HEX: #D200A2
+
+Font: Rubik.
+"Venture": Bold Times New Roman.
+Quotes: Rubik Italic
+
+Arrow from Fira Code Retina. Substitute maybe FontAwesome arrow-long-(direction).
+Maybe light thickness version of arrow.
+
+?? Arrow placed relative to what text?! Hover effect: slide right and back when exiting hover. Again what text?(Same as first mention of text?)
+Read Our Story arrow: same hover effect as previous.
+
+Quote "And im floating.." with automatic quotation marks. Quotation marks placed a little behind quote start and end. CSS :before :after??? HTML tag?
+
+Save Venture header: Venture with little transparancy and placed a little behind Save.
+
+Menu hamburger: Fixed on screen.
+Centering hamburger on hover.
+
+Menu items: dropshadow on text
+
+Menu items Desktop: Pink bottom border on hover. No dropshadow on border(if possible).
+
+Cookie text: Same on both mobile and desktop. Little glow effect on text. OBS! missing arrow in desktop design.
+
+Extra quote on Desktop version. Faded with a pink-white-pink gradient from left-top to right-bottom.
+
+?? "Last text-section": "Planet Earth is blue" and "and there's nothing I can do" should be on seperate lines on Desktop version. And the rest should be in the last seciton above?? (what rest??)
+
+Picture of Major Tom should float right so text can wrap it on top and bottom. OBS! No Major Tom picture on mobile version.
+
+Page should look good with no CSS. (readability)
