@@ -35,3 +35,6 @@ Extra quote on Desktop version. Faded with a pink-white-pink gradient from left-
 Picture of Major Tom should float right so text can wrap it on top and bottom. OBS! No Major Tom picture on mobile version.
 
 Page should look good with no CSS. (readability)
+
+Problem:
+Hamburger and second page color clash.
