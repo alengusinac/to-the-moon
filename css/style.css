@@ -115,3 +115,36 @@ header button:hover span:nth-child(2) {
 .main_title a:hover i {
     left: 20px;
 }
+
+/**************SPACE VENTURES***********/
+
+.second_title {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_title h1 span:nth-child(1) {
+    color: white;
+    font-size: 3.5rem;
+    position: relative;
+    top: 25px;
+    right: 75px;
+    z-index: 1;
+    text-shadow: 2px 2px 2px black;
+}
+
+.second_title h1 span:nth-child(3) {
+    color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+
+/*****************MAIN*******************/
