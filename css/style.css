@@ -34,8 +34,9 @@ html {
 .secondpage_container {
     width: 100%;
     height: 100vh;
-    background-image: url(/assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(/assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
     background-size: cover;
+    
     scroll-snap-align: start;
 }
 
@@ -120,7 +121,7 @@ header button:hover span:nth-child(2) {
 
 .second_title {
     width: 100%;
-    height: 200px;
+    height: 150px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -131,7 +132,7 @@ header button:hover span:nth-child(2) {
     color: white;
     font-size: 3.5rem;
     position: relative;
-    top: 25px;
+    top: 45px;
     right: 75px;
     z-index: 1;
     text-shadow: 2px 2px 2px black;
@@ -143,7 +144,7 @@ header button:hover span:nth-child(2) {
     font-size: 4.5rem;
     font-weight: 700;
     position: relative;
-    top: -40px;
+    top: -20px;
     left: 30px;
 }
 
@@ -151,5 +152,28 @@ header button:hover span:nth-child(2) {
 
  main {
     color: white;
+    padding: 0 2rem;
  }
+
+ main h2 {
+    margin-bottom: 5px;
+ }
+
+ main p {
+    font-size: 0.8rem;
+    margin: 8px 0;
+    opacity: 0.8;
+ }
+
+ main q {
+    display: block;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-left: 4rem;
+    padding: 1rem 0;
+ }
+
+
 
