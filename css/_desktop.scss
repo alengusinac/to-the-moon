@@ -1,4 +1,24 @@
 @media only screen and (min-width: 992px) {
+    .firstpage_container {
+        background-position-y: 50%;
+    }
+
+    .main_title {
+        width: 350px;
+        height: 350px;
+    }
+
+    .main_title h1 {
+        font-size: 4.5rem;
+        padding-top: 50px;
+        width: 300px;
+    }
+
+    .main_title a {
+        top: 80px;
+        left: 70px
+    }
+    
     .second_title {
         height: 200px;
         justify-content: flex-start;
