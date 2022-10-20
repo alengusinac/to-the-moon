@@ -78,11 +78,43 @@ header button:hover span:nth-child(2) {
     left: 0;
 }
 
+nav {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+}
+
+nav ul {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(154, 154, 154);
+}
+
+input:checked nav{
+
+}
+
 /***********TO THE MOON************/
 
 .main_title {
-    width: 225px;
-    height: 250px;
+    width: 200px;
+    height: 225px;
     position: relative;
     top: 75px;
     left: 75px;
@@ -93,26 +125,28 @@ header button:hover span:nth-child(2) {
 .main_title h1{
     font-size: 2.8rem;
     margin: 5px;
+    padding-top: 10px;
+    text-transform: uppercase;
 }
 
 .main_title a {
     position: relative;
-    left: -30px;
-    top: 13px;
+    left: -20px;
+    top: 15px;
     font-size: 1rem;
     color: black;
     text-decoration: none;
     opacity: 0.8;
 }
 
-.main_title i {
+.main_title i, main i {
     margin-left: 5px;
     position: relative;
     left: 0px;
     transition: left 0.3s ease-in-out;
 }
 
-.main_title a:hover i {
+.main_title a:hover i, main a:hover i {
     left: 20px;
 }
 
@@ -132,7 +166,7 @@ header button:hover span:nth-child(2) {
     font-size: 3.5rem;
     position: relative;
     top: 45px;
-    right: 75px;
+    right: 100px;
     z-index: 1;
     text-shadow: 2px 2px 2px black;
 }
@@ -143,25 +177,25 @@ header button:hover span:nth-child(2) {
     font-size: 4.5rem;
     font-weight: 700;
     position: relative;
-    top: -20px;
-    left: 30px;
+    left: 5px;
 }
 
 /*****************MAIN*******************/
 
  main {
     color: white;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
  }
 
  main h2 {
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
  }
 
  main p {
     font-size: 0.8rem;
-    margin: 8px 0;
+    margin: 0.5rem 0;
     opacity: 0.8;
+    line-height: 1.2rem;
  }
 
  main q {
@@ -174,5 +208,6 @@ header button:hover span:nth-child(2) {
     padding: 1rem 0;
  }
 
-
-
+main a {
+    color: rgb(210, 0, 162);
+}
