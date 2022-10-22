@@ -17,7 +17,6 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: auto;
-    scroll-snap-type: y mandatory;
 }
 
 .firstpage_container {
@@ -25,7 +24,6 @@ body {
     height: 100vh;
     background-image: url(/assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg);
     background-size: cover;
-    scroll-snap-align: start;
 }
 
 .firstpage_container > i {
@@ -267,8 +265,6 @@ main a {
     bottom: 0;
     background-color: rgb(27, 0, 47);
     height: 50px;
-    display: flex;
-    justify-content: space-between;
     bottom: 0;
     width: 100%;
 }
@@ -281,7 +277,24 @@ main a {
     font-size: 0.8rem;
     height: 100%;
     display: flex;
-    align-items: center
+    align-items: center;
+    float: left;
+}
+
+.cookies button {
+    color: white;
+    background-color: rgb(0, 0, 138);
+    font-weight: bold;
+    font-size: 0.7rem;
+    border: 0;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 @import '_tablet';
