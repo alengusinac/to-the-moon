@@ -37,6 +37,7 @@ body {
 }
 
 .secondpage_container {
+    position: relative;
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(/assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
@@ -225,7 +226,7 @@ input:checked + .menu nav {
 
  main {
     color: white;
-    padding: 1rem 2rem;
+    padding: 0 2rem;
  }
 
  main h2 {
@@ -259,6 +260,28 @@ main a {
 
 .right_main img {
     display: none;
+}
+
+.cookies {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(27, 0, 47);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+}
+
+.cookies p {
+    color: rgb(210, 0, 162);
+    text-shadow: 0 0 7px rgb(210, 0, 162);
+    margin-top: 0;
+    padding-left: 20px;
+    font-size: 0.8rem;
+    height: 100%;
+    display: flex;
+    align-items: center
 }
 
 @import '_tablet';

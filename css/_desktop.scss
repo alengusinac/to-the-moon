@@ -59,12 +59,15 @@
 
     .left_main {
         max-width: 45%;
+        height: 50%;
     }
 
     .right_main {
+        max-width: 50%;
         padding-left: 150px;
         position: relative;
-        top: -200px;
+        top: -150px;
+        right: 20px;
     }
     
     .right_main p:first-child {
