@@ -39,4 +39,4 @@ Page should look good with no CSS. (readability)
 Problem:
 Hamburger and second page color clash.
 
-I suppose that cookie message should be on first as well??
+I suppose that cookie message should be on firstpage as well??

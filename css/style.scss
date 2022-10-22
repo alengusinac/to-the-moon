@@ -120,6 +120,7 @@ input {
     right: 20px;
     z-index: 4;
     opacity: 0;
+    cursor: pointer;
 }
 
 input:checked + .menu button {
