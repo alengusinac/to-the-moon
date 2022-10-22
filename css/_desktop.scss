@@ -80,4 +80,11 @@
         margin-bottom: 40px;
         opacity: 0.3;
     }
+
+    .right_main img {
+        display: block;
+        float: right;
+        transform: rotate(3deg);
+        opacity: 1;
+    }
 }
