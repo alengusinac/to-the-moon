@@ -1,7 +1,12 @@
 @media only screen and (min-width: 992px) {
+
+    /*********CONTAINERS*************/
+
     .firstpage_container {
         background-position-y: 50%;
     }
+
+    /*********MENU NAV***************/
 
     .menu nav ul a:hover::after {
         display: block; 
@@ -23,7 +28,9 @@
         border-radius: 3px;
         position: relative;
         left: 20%;
-    }    
+    }
+
+    /*************TO THE MOON************/
 
     .main_title {
         width: 350px;
@@ -40,6 +47,8 @@
         top: 80px;
         left: 70px
     }
+
+    /*************SPACE VENTURES********/
 
     .second_title {
         height: 200px;
@@ -58,6 +67,8 @@
         top: -45px;
         left: -35px;
     }
+
+    /************MAIN***************/
 
     .left_main {
         max-width: 45%;
