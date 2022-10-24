@@ -3,7 +3,8 @@
         background-position-y: 50%;
     }
 
-    .menu nav ul a::after { 
+    .menu nav ul a:hover::after {
+        display: block; 
         content:""; 
         float:left; 
         background: rgb(210, 0, 162); 
@@ -12,7 +13,8 @@
         border-radius: 3px;
     }
 
-    .menu nav ul a span::after { 
+    .menu nav ul a:hover span::after {
+        display: block; 
         content:""; 
         float:left; 
         background:rgb(210, 0, 162); 
