@@ -1,5 +1,7 @@
 @import '_normalize';
 
+$special-pink: rgb(210, 0, 162);
+
 * {
     box-sizing: border-box;
 }
@@ -253,7 +255,7 @@ input:checked + .menu nav {
  }
 
 main a {
-    color: rgb(210, 0, 162);
+    color: $special-pink;
 }
 
 .right_main p:first-child {
@@ -274,8 +276,8 @@ main a {
 }
 
 .cookies p {
-    color: rgb(210, 0, 162);
-    text-shadow: 0 0 7px rgb(210, 0, 162);
+    color: $special-pink;
+    text-shadow: 0 0 7px $special-pink;
     margin-top: 0;
     padding-left: 20px;
     font-size: 0.8rem;
