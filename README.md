@@ -1,9 +1,14 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8880999&assignment_repo_type=AssignmentRepo)
-# Inlämningsuppgift 2: To The Moon
-Se instruktioner för uppgiften på kurswebben.
+# TO THE MOON - A HTML & SASS school project
 
-I `assets`-mappen hittar du briefen från kunden (beskrivningen på vad du ska göra), information om designen, bilder till uppgiften och texter till uppgiften.
+This is the second developer school project I have done. It's a landing page for the story of Major Tom.
+For this project we got a wireframe and a prototype of how the website should look like.
+Timelimit was 2 weeks.
 
-I `screenshots`-mappen lägger du skärmdumpar på din sajt, när du är klar och har testat och färdigställt den så att den fungerar i alla webbläsare.
+## Tech stacks
 
-I `validation-reports`-mappen lägger du PDF:er på dina valideringsrapporter på HTML och CSS.
+HTML
+Sass
+
+### DevTools
+Parcel
+HTML5Boilerplate
