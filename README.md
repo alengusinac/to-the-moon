@@ -7,8 +7,11 @@ Timelimit was 2 weeks.
 ## Tech stacks
 
 HTML
+
 Sass
 
 ### DevTools
+
 Parcel
+
 HTML5Boilerplate
